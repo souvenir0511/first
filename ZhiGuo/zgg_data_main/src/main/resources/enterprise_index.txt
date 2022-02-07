@@ -1,0 +1,106 @@
+PUT /enterprise_index
+{
+   "settings": {
+   "analysis": {
+          "analyzer": {
+            "ik_syno_max": {
+              "type": "custom",
+              "tokenizer": "ik_max_word"
+            }
+          }
+		}
+  },
+  "mappings": {
+	  "properties": {
+			"entName":{
+				"type": "keyword"
+			},
+			"entNameOld":{
+				"type": "keyword"
+			},
+			"entNameText":{
+				"type": "text",
+				"analyzer": "ik_syno_max"
+			},
+			"address": {
+				"type": "keyword"
+			},
+			"faRen":{
+				"type": "keyword"
+			},
+			"regDate":{
+				"type": "date",
+				"format": "yyyy-MM-dd"
+			},
+			"regMoney":{
+				"type": "double"
+			},
+			"regMoneyUnit":{
+				"type": "keyword"
+			},
+			"entType":{
+				"type": "keyword"
+			},
+			"province":{
+				"type": "keyword"
+			},
+			"creditCode":{
+				"type": "keyword"
+			},
+			"city":{
+				"type": "keyword"
+			},
+			"area":{
+				"type": "keyword"
+			},
+			"tel":{
+				"type": "keyword"
+			},
+			"email":{
+				"type": "keyword"
+			},
+			"webSite":{
+				"type": "keyword"
+			},
+			"experienceScope":{
+				"type": "keyword"
+			},
+			"brandCount":{
+				"type": "integer"
+			},
+			"patentCount":{
+				"type": "integer"
+			},
+			"softwareCopyrightCount":{
+				"type": "integer"
+			},
+			"copyrightCount":{
+				"type": "integer"
+			},
+			"certificateCount":{
+				"type": "integer"
+			},
+			"isUp":{
+				"type": "boolean"
+			},
+			"industry":{
+			  "type": "keyword"
+			},
+			"entStatus":{
+			  "type":"keyword"
+			},
+			"isGaoXin":{
+			  "type": "boolean"
+			},
+			"regYear":{
+			  "type": "keyword"
+			},
+			"gaoXinYear":{
+			  "type": "keyword"
+			},
+			"industrySet":{
+			  "type": "keyword"
+			}
+		}
+	}
+}

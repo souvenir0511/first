@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+<!--     <property resource="app.properties"/> -->
+    <property name="logRoot" value="logs"/>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <appender name="INFO-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+        </filter>
+        <file>${logRoot}/info.log</file>
+        <encoder>
+            <pattern>%date %level [%thread] %logger{10} [%file] %msg%n</pattern>
+            <charset class="java.nio.charset.Charset">UTF-8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${logRoot}/info_%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>500MB</maxFileSize>
+            </TimeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+	<appender name="DEBUG-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+        <file>${logRoot}/debug.log</file>
+        <encoder>
+            <pattern>%date %level [%thread] %logger{10} [%file] %msg%n</pattern>
+            <charset class="java.nio.charset.Charset">UTF-8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${logRoot}/debug_%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>500MB</maxFileSize>
+            </TimeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="ERROR-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <file>${logRoot}/error.log</file>
+        <encoder>
+            <pattern>%date %level [%thread] %logger{10} [%file] %msg%n</pattern>
+            <charset class="java.nio.charset.Charset">UTF-8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${logRoot}/error_%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>500MB</maxFileSize>
+            </TimeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <!-- ==================== 控制台输出 ===================== -->
+<!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            &lt;!&ndash;<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>&ndash;&gt;-->
+<!--            <pattern>%date %level [%thread] %logger{10} [%file] %msg%n</pattern>-->
+<!--            <charset class="java.nio.charset.Charset">UTF-8</charset>-->
+<!--        </encoder>-->
+<!--        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+<!--            <level>INFO</level>-->
+<!--        </filter>-->
+<!--    </appender>-->
+
+<!--     <logger name="org.apache.zookeeper" level="WARN"/> -->
+<!--     <logger name="com.alibaba.dubbo" level="WARN"/> -->
+<!--     <logger name="org.springframework" level="WARN" additivity="false"> -->
+<!--         <appender-ref ref="info"/> -->
+<!--         <appender-ref ref="error"/> -->
+<!--     </logger> -->
+<!--    <logger name="com.ibatis" level="${logLevel}"> -->
+<!-- 		<appender-ref ref="info" /> -->
+<!-- 		<appender-ref ref="error" /> -->
+<!-- 	</logger> -->
+<!--     <logger name="com.skg.commons" level="${logLevel}" additivity="false"> -->
+<!--         <appender-ref ref="info"/> -->
+<!--         <appender-ref ref="error"/> -->
+<!--     </logger> -->
+<!--      <logger name="com.skg.web.controller" level="${logLevel}" additivity="false"> -->
+<!--         <appender-ref ref="info"/> -->
+<!--         <appender-ref ref="error"/> -->
+<!--     </logger> -->
+
+    <root>
+        <level value="INFO" />
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="INFO-OUT" />
+        <appender-ref ref="ERROR-OUT" />
+<!--         <appender-ref ref="DEBUG-OUT" /> -->
+    </root>
+
+</configuration>

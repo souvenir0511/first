@@ -1,0 +1,160 @@
+2022-01-27 10:27:20,568 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:29:07,929 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:30:50,464 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:32:19,231 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:33:38,246 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:34:56,026 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:36:07,569 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:37:19,332 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:38:46,159 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:39:54,835 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:41:07,805 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:42:14,000 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:43:21,196 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:44:34,143 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:45:44,785 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:46:59,397 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:48:13,488 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:49:40,547 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:50:50,950 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:52:13,744 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)

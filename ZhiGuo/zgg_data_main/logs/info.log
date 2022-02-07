@@ -1,0 +1,332 @@
+2022-01-27 10:21:37,319 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mysql加载连接成功
+2022-01-27 10:21:39,320 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 10:21:39,404 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 10:21:39,406 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 10:21:39,409 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mango初始化成功
+2022-01-27 10:21:39,411 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 开始处理
+2022-01-27 10:21:39,423 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-01-27 10:21:39,470 INFO [cluster-ClusterId{value='61f201b3a534f460364a7242', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:1, serverValue:248}] to 192.168.10.130:27017
+2022-01-27 10:21:39,470 INFO [cluster-ClusterId{value='61f201b3a534f460364a7243', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:2, serverValue:249}] to 192.168.10.130:27017
+2022-01-27 10:21:39,481 INFO [cluster-ClusterId{value='61f201b3a534f460364a7244', description='null'}-192.168.10.150:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:3, serverValue:737}] to 192.168.10.150:27017
+2022-01-27 10:21:39,485 INFO [cluster-ClusterId{value='61f201b3a534f460364a7243', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11564200}
+2022-01-27 10:21:39,485 INFO [cluster-ClusterId{value='61f201b3a534f460364a7242', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10523000}
+2022-01-27 10:21:39,490 INFO [cluster-ClusterId{value='61f201b3a534f460364a7244', description='null'}-192.168.10.150:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7297300}
+2022-01-27 10:21:39,517 INFO [main] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:4, serverValue:250}] to 192.168.10.130:27017
+2022-01-27 10:22:27,976 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询高企256443条,耗时48449ms
+2022-01-27 10:23:40,748 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时72760ms;
+2022-01-27 10:23:41,126 INFO [main] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:5, serverValue:251}] to 192.168.10.130:27017
+2022-01-27 10:23:46,227 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据16679条,耗时5478ms;
+2022-01-27 10:23:53,371 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度10000/32461,耗时7123ms
+2022-01-27 10:24:43,102 INFO [cluster-ClusterId{value='61f201b3a534f460364a7244', description='null'}-192.168.10.150:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:6, serverValue:738}] to 192.168.10.150:27017
+2022-01-27 10:24:54,043 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时60671ms;
+2022-01-27 10:25:59,021 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时64977ms;
+2022-01-27 10:25:59,023 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:132775ms;
+2022-01-27 10:25:59,023 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度10000/32461,耗时132775ms
+2022-01-27 10:27:16,254 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时77230ms;
+2022-01-27 10:27:18,320 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14990条,耗时2064ms;
+2022-01-27 10:27:20,568 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:28:58,409 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时97834ms;
+2022-01-27 10:29:04,516 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14955条,耗时6106ms;
+2022-01-27 10:29:07,929 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:30:46,114 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时98183ms;
+2022-01-27 10:30:48,354 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14957条,耗时2238ms;
+2022-01-27 10:30:50,464 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:32:09,115 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时78650ms;
+2022-01-27 10:32:15,299 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14985条,耗时6183ms;
+2022-01-27 10:32:19,231 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:33:29,527 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时70294ms;
+2022-01-27 10:33:34,428 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14988条,耗时4900ms;
+2022-01-27 10:33:38,246 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:34:50,122 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时71874ms;
+2022-01-27 10:34:53,975 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14984条,耗时3852ms;
+2022-01-27 10:34:56,026 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:36:01,063 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时65035ms;
+2022-01-27 10:36:05,377 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14985条,耗时4313ms;
+2022-01-27 10:36:07,569 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:37:15,021 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时67451ms;
+2022-01-27 10:37:17,213 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14947条,耗时2191ms;
+2022-01-27 10:37:19,332 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:38:39,977 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时80643ms;
+2022-01-27 10:38:42,128 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14974条,耗时2149ms;
+2022-01-27 10:38:46,159 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:39:50,156 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时63995ms;
+2022-01-27 10:39:52,835 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14982条,耗时2676ms;
+2022-01-27 10:39:54,835 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:41:01,617 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时66780ms;
+2022-01-27 10:41:05,919 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14987条,耗时4301ms;
+2022-01-27 10:41:07,805 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:42:08,774 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时60967ms;
+2022-01-27 10:42:11,159 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14993条,耗时2384ms;
+2022-01-27 10:42:14,000 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:43:17,088 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时63086ms;
+2022-01-27 10:43:19,220 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14980条,耗时2131ms;
+2022-01-27 10:43:21,196 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:44:29,798 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时68600ms;
+2022-01-27 10:44:32,095 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据15004条,耗时2296ms;
+2022-01-27 10:44:34,143 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:45:40,379 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时66234ms;
+2022-01-27 10:45:42,545 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据15004条,耗时2165ms;
+2022-01-27 10:45:44,785 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:46:52,521 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时67734ms;
+2022-01-27 10:46:56,927 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据15012条,耗时4405ms;
+2022-01-27 10:46:59,397 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:48:09,052 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时69653ms;
+2022-01-27 10:48:11,256 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据15012条,耗时2203ms;
+2022-01-27 10:48:13,488 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:49:32,217 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时78727ms;
+2022-01-27 10:49:38,036 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据15012条,耗时5817ms;
+2022-01-27 10:49:40,547 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:50:43,825 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时63276ms;
+2022-01-27 10:50:48,133 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据15035条,耗时4307ms;
+2022-01-27 10:50:50,950 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:52:03,333 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时72381ms;
+2022-01-27 10:52:07,008 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14796条,耗时3674ms;
+2022-01-27 10:52:13,744 ERROR [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 未知报错，lastId:4e3f461397214941ab425e824fc976d1
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.zgg.batch.enterprise.util.DocumentToBeanUtil.spiderMongoToMysqlEnt(DocumentToBeanUtil.java:690)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.lambda$fixEnterpriseData$3(Spider2MongoToMysql.java:213)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.fixEnterpriseData(Spider2MongoToMysql.java:205)
+	at com.zgg.batch.enterprise.main.Spider2MongoToMysql.main(Spider2MongoToMysql.java:91)
+2022-01-27 10:56:30,983 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mysql加载连接成功
+2022-01-27 10:56:31,359 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 10:56:31,545 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 10:56:31,547 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 10:56:31,549 INFO [cluster-ClusterId{value='61f209df788a3a04e65d1fa5', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:1, serverValue:252}] to 192.168.10.130:27017
+2022-01-27 10:56:31,550 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mango初始化成功
+2022-01-27 10:56:31,551 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 开始处理
+2022-01-27 10:56:31,562 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-01-27 10:56:31,567 INFO [cluster-ClusterId{value='61f209df788a3a04e65d1fa6', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:2, serverValue:253}] to 192.168.10.130:27017
+2022-01-27 10:56:31,569 INFO [cluster-ClusterId{value='61f209df788a3a04e65d1fa5', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13253700}
+2022-01-27 10:56:31,573 INFO [cluster-ClusterId{value='61f209df788a3a04e65d1fa6', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6086200}
+2022-01-27 10:56:31,591 INFO [cluster-ClusterId{value='61f209df788a3a04e65d1fa7', description='null'}-192.168.10.150:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:3, serverValue:749}] to 192.168.10.150:27017
+2022-01-27 10:56:31,611 INFO [cluster-ClusterId{value='61f209df788a3a04e65d1fa7', description='null'}-192.168.10.150:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19855800}
+2022-01-27 10:56:31,613 INFO [main] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:4, serverValue:254}] to 192.168.10.130:27017
+2022-01-27 10:57:03,197 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询高企256443条,耗时31572ms
+2022-01-27 10:58:24,625 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时81415ms;
+2022-01-27 10:58:24,867 INFO [main] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:5, serverValue:255}] to 192.168.10.130:27017
+2022-01-27 10:58:30,891 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据16482条,耗时6264ms;
+2022-01-27 10:58:35,968 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度10000/33357,耗时5053ms
+2022-01-27 10:59:12,808 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时36838ms;
+2022-01-27 10:59:53,927 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时41118ms;
+2022-01-27 10:59:53,928 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:83013ms;
+2022-01-27 10:59:53,929 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度10000/33357,耗时83014ms
+2022-01-27 11:01:05,138 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时71209ms;
+2022-01-27 11:01:07,275 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据14986条,耗时2136ms;
+2022-01-27 11:01:11,140 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度20000/33357,耗时3858ms
+2022-01-27 11:01:43,298 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时32156ms;
+2022-01-27 11:02:13,435 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时30136ms;
+2022-01-27 11:02:13,436 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:66154ms;
+2022-01-27 11:02:13,436 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度20000/33357,耗时66154ms
+2022-01-27 11:03:17,655 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时64218ms;
+2022-01-27 11:03:22,462 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据20023条,耗时4806ms;
+2022-01-27 11:03:28,775 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度30000/33357,耗时6301ms
+2022-01-27 11:04:21,568 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时52792ms;
+2022-01-27 11:05:40,273 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时78704ms;
+2022-01-27 11:05:40,274 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:137800ms;
+2022-01-27 11:05:40,275 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度30000/33357,耗时137801ms
+2022-01-27 11:06:00,391 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时20115ms;
+2022-01-27 11:06:01,678 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据6651条,耗时1285ms;
+2022-01-27 11:06:02,450 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度33411/33357,耗时767ms
+2022-01-27 11:06:37,743 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，3411条耗时35292ms;
+2022-01-27 11:06:37,744 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:36062ms;
+2022-01-27 11:06:37,745 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度40000/33357,耗时36063ms
+2022-01-27 11:06:37,753 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理完成
+2022-01-27 11:06:37,754 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 总耗时606129ms
+2022-01-27 11:06:37,759 INFO [main] o.m.d.connection [SLF4JLogger.java] Closed connection [connectionId{localValue:4, serverValue:254}] to 192.168.10.130:27017 because the pool has been closed.
+2022-01-27 11:06:37,763 INFO [main] o.m.d.connection [SLF4JLogger.java] Closed connection [connectionId{localValue:5, serverValue:255}] to 192.168.10.130:27017 because the pool has been closed.
+2022-01-27 17:48:57,159 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mysql加载连接成功
+2022-01-27 17:48:57,756 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 17:48:57,995 INFO [cluster-ClusterId{value='61f26a89ddd9de77cf12aaa8', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:1, serverValue:263}] to 192.168.10.130:27017
+2022-01-27 17:48:58,003 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 17:48:58,009 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 17:48:58,013 INFO [cluster-ClusterId{value='61f26a89ddd9de77cf12aaa8', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12396000}
+2022-01-27 17:48:58,013 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mango初始化成功
+2022-01-27 17:48:58,017 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 开始处理
+2022-01-27 17:48:58,054 INFO [cluster-ClusterId{value='61f26a8addd9de77cf12aaa9', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:2, serverValue:264}] to 192.168.10.130:27017
+2022-01-27 17:48:58,069 INFO [cluster-ClusterId{value='61f26a8addd9de77cf12aaaa', description='null'}-192.168.10.150:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:3, serverValue:780}] to 192.168.10.150:27017
+2022-01-27 17:48:58,071 INFO [cluster-ClusterId{value='61f26a8addd9de77cf12aaa9', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15890700}
+2022-01-27 17:48:58,080 INFO [cluster-ClusterId{value='61f26a8addd9de77cf12aaaa', description='null'}-192.168.10.150:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10146000}
+2022-01-27 17:48:58,106 INFO [main] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:4, serverValue:265}] to 192.168.10.130:27017
+2022-01-27 17:51:39,880 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mysql加载连接成功
+2022-01-27 17:51:40,405 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 17:51:40,575 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.130:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 17:51:40,582 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster created with settings {hosts=[192.168.10.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-27 17:51:40,588 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] mango初始化成功
+2022-01-27 17:51:40,589 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 开始处理
+2022-01-27 17:51:40,604 INFO [main] o.m.d.cluster [SLF4JLogger.java] Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-01-27 17:51:40,613 INFO [cluster-ClusterId{value='61f26b2c10212b088c9c8040', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:1, serverValue:266}] to 192.168.10.130:27017
+2022-01-27 17:51:40,696 INFO [cluster-ClusterId{value='61f26b2c10212b088c9c8040', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=74029800}
+2022-01-27 17:51:40,705 INFO [cluster-ClusterId{value='61f26b2c10212b088c9c8041', description='null'}-192.168.10.130:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:2, serverValue:267}] to 192.168.10.130:27017
+2022-01-27 17:51:40,736 INFO [cluster-ClusterId{value='61f26b2c10212b088c9c8041', description='null'}-192.168.10.130:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.130:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=31045900}
+2022-01-27 17:51:40,772 INFO [cluster-ClusterId{value='61f26b2c10212b088c9c8042', description='null'}-192.168.10.150:27017] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:3, serverValue:781}] to 192.168.10.150:27017
+2022-01-27 17:51:40,805 INFO [cluster-ClusterId{value='61f26b2c10212b088c9c8042', description='null'}-192.168.10.150:27017] o.m.d.cluster [SLF4JLogger.java] Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=31660000}
+2022-01-27 17:51:40,847 INFO [main] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:4, serverValue:268}] to 192.168.10.130:27017
+2022-01-27 17:52:14,032 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询高企256443条,耗时33098ms
+2022-01-27 17:54:24,448 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时130404ms;
+2022-01-27 17:54:25,103 INFO [main] o.m.d.connection [SLF4JLogger.java] Opened connection [connectionId{localValue:5, serverValue:269}] to 192.168.10.130:27017
+2022-01-27 17:54:31,000 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据16465条,耗时6551ms;
+2022-01-27 17:54:39,507 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度10000/37159,耗时8486ms
+2022-01-27 17:58:16,432 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时216922ms;
+2022-01-27 17:58:36,091 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时19658ms;
+2022-01-27 17:58:36,092 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:245071ms;
+2022-01-27 17:58:36,094 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度10000/37159,耗时245073ms
+2022-01-27 18:00:27,391 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时111297ms;
+2022-01-27 18:00:31,200 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据15502条,耗时3808ms;
+2022-01-27 18:00:35,341 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度20000/37159,耗时4133ms
+2022-01-27 18:04:19,101 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时223759ms;
+2022-01-27 18:06:41,036 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时141934ms;
+2022-01-27 18:06:41,037 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:369829ms;
+2022-01-27 18:06:41,038 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度20000/37159,耗时369830ms
+2022-01-27 18:07:59,804 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时78765ms;
+2022-01-27 18:08:03,204 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据18229条,耗时3397ms;
+2022-01-27 18:08:07,177 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度30000/37159,耗时3964ms
+2022-01-27 18:11:29,510 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时202332ms;
+2022-01-27 18:17:34,133 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时364621ms;
+2022-01-27 18:17:34,134 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:570921ms;
+2022-01-27 18:17:34,135 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度30000/37159,耗时570922ms
+2022-01-27 18:18:27,233 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询mango数据10000条,耗时53098ms;
+2022-01-27 18:18:31,439 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 查询专利局mango数据13506条,耗时4203ms;
+2022-01-27 18:18:34,417 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 读取进度37159/37159,耗时2969ms
+2022-01-27 18:19:17,315 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，5000条耗时42896ms;
+2022-01-27 18:19:30,058 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] enterpriseExpand，2159条耗时12742ms;
+2022-01-27 18:19:30,060 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] size:0;耗时:58612ms;
+2022-01-27 18:19:30,062 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理进度40000/37159,耗时58614ms
+2022-01-27 18:19:30,067 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 处理完成
+2022-01-27 18:19:30,068 INFO [main] c.z.b.e.m.Spider2MongoToMysql [Spider2MongoToMysql.java] 总耗时1669134ms
+2022-01-27 18:19:30,075 INFO [main] o.m.d.connection [SLF4JLogger.java] Closed connection [connectionId{localValue:4, serverValue:268}] to 192.168.10.130:27017 because the pool has been closed.
+2022-01-27 18:19:30,079 INFO [main] o.m.d.connection [SLF4JLogger.java] Closed connection [connectionId{localValue:5, serverValue:269}] to 192.168.10.130:27017 because the pool has been closed.
